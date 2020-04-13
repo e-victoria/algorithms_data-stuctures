@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Algorithmic exercises",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/e-victoria/algorithms_js/issues"
   },
-  "homepage": "https://github.com/e-victoria/algorithms_js#readme"
+  "homepage": "https://github.com/e-victoria/algorithms_js#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0",
+    "karma": "^5.0.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.1.1"
+  }
 }
