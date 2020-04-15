@@ -68,11 +68,3 @@ class MineSweeper {
 }
 
 module.exports = MineSweeper;
-
-const minesweeper = new MineSweeper(3, 3);
-const board = minesweeper.insertMines(minesweeper.generateBoard());
-for (let row of board) {
-    console.log(row);
-}
-console.log('\n')
-minesweeper.getSumOfMines(board);
