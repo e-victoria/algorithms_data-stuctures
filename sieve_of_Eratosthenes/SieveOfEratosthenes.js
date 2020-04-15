@@ -35,6 +35,3 @@ class SieveOfEratosthenes {
 }
 
 module.exports = SieveOfEratosthenes;
-
-const sieveOfEratosthenes = new SieveOfEratosthenes(50);
-sieveOfEratosthenes.getPrimes();
