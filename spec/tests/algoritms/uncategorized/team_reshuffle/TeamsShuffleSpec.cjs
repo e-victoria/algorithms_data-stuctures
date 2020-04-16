@@ -1,6 +1,6 @@
 describe("TeamsShuffle", function() {
-    const FileReader = require('../../../../src/algorithms/team_reshuffle/FileReader');
-    const TeamsShuffle = require('../../../../src/algorithms/team_reshuffle/TeamsShuffle');
+    const FileReader = require('../../../../../src/algorithms/uncategorized/team_reshuffle/FileReader');
+    const TeamsShuffle = require('../../../../../src/algorithms/uncategorized/team_reshuffle/TeamsShuffle');
     let fileReader;
     let teamsShuffle;
   

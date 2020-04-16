@@ -1,5 +1,5 @@
 describe("Minesweeper", function() {
-    const Minesweeper = require('../../../src/algorithms/minesweeper/Minesweeper');
+    const Minesweeper = require('../../../../src/algorithms/uncategorized/minesweeper/Minesweeper');
     let minesweeper;
   
     beforeEach(function() {
