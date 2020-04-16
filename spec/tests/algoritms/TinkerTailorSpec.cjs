@@ -1,5 +1,5 @@
 describe("TinkerTailor", function() {
-    const TinkerTailor = require('../../tinker_tailor/TinkerTailor');
+    const TinkerTailor = require('../../../src/algorithms/tinker_tailor/TinkerTailor');
     let tinkerTailor;
   
     beforeEach(function() {

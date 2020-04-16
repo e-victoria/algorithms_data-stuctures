@@ -1,5 +1,5 @@
 describe("BinarySearch", function() {
-  var BinarySearch = require('../../binary_search/BinarySearch');
+  var BinarySearch = require('../../../../src/algorithms/search/BinarySearch');
   var binarySearch
 
 

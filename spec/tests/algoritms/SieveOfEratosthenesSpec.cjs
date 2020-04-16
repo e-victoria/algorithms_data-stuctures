@@ -1,5 +1,5 @@
 describe("SieveOfEratosthenes", function() {
-    const SieveOfEratosthenes = require('../../sieve_of_Eratosthenes/SieveOfEratosthenes');
+    const SieveOfEratosthenes = require('../../../src/algorithms/sieve_of_Eratosthenes/SieveOfEratosthenes');
     let sieveOfEratosthenes;
   
     beforeEach(function() {
