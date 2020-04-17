@@ -12,19 +12,15 @@ class UndirectedGraph {
 	}
 
 	removeVertex(vertex) {
-		if (this.AdjList.has(vertex)) {
-			if (this.AdjList.get(vertex).length <= 1) {
-				this.AdjList.delete(vertex);
-			} else {
-				const relations = this.AdjList.get(vertex);
-				for (let i = 0; i < relations.length; i++) {
-					const subVertex = this.AdjList.get(relations[i]);
-					subVertex.splice(subVertex.indexOf(vertex), 1)
-				}
-				this.AdjList.delete(vertex);
+		try  {
+			const relations = this.AdjList.get(vertex);
+			for (let i = 0; i < relations.length; i++) {
+				const subVertex = this.AdjList.get(relations[i]);
+				subVertex.splice(subVertex.indexOf(vertex), 1)
 			}
-		} else {
-			throw 'No such vertex!!!';
+			this.AdjList.delete(vertex);
+		} catch {
+			console.log('No such vertex!!!');
 		}
 	}
 
@@ -46,7 +42,7 @@ class UndirectedGraph {
 			if (thisNodeAsVetex.length > 1) {
 				thisNodeAsVetex.splice(thisNodeAsVetex.indexOf(vertex), 1);
 			} else {
-				this.removeVertex(node);
+				this.AdjList.delete(node);
 			}
 		}
 	}
