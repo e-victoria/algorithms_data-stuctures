@@ -1,6 +1,6 @@
 # Algorithms and Data Structures
 
-A collection of algorithms and datastuctures created by me in a purpose of learning.
+A collection of algorithms and data structures created by me in a purpose of learning.
 All code is written with JavaScript and tested with Jasmine.
 
 
