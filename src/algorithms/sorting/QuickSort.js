@@ -46,6 +46,3 @@ class QuickSort {
 }
 
 module.exports = QuickSort;
-
-const quickSort = new QuickSort([5, 15, 1, 4, 2, 23, 0]);
-console.log(quickSort.sort());
