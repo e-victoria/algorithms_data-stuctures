@@ -11,6 +11,10 @@ export default class UndirectedGraph {
       }
     }
 
+    getGraph() {
+        return this.AdjList;
+    }
+
     removeVertex(vertex) {
         try {
             const relations = this.AdjList.get(vertex);
