@@ -1,4 +1,4 @@
-class MergeSort {
+export default class MergeSort {
     sort(unsortedArray) {
         this.sortedArray = [];
         
@@ -28,5 +28,3 @@ class MergeSort {
         return sortedArray.concat(leftArray).concat(rightArray);
     }
 }
-
-module.exports = MergeSort;

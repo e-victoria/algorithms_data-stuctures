@@ -1,5 +1,6 @@
+import BinarySearch from '../../../../src/algorithms/search/BinarySearch';
+
 describe("BinarySearch", function() {
-  var BinarySearch = require('../../../../src/algorithms/search/BinarySearch');
   var binarySearch
 
 

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Algorithmic exercises",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+    "test": "babel-node spec/support/run.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,17 @@
   },
   "homepage": "https://github.com/e-victoria/algorithms_js#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.2.0",
     "jasmine": "^3.5.0",
     "jasmine-core": "^3.5.0",
     "karma": "^5.0.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^3.1.1",
+    "sinon": "^9.0.2",
     "xmlhttprequest": "^1.8.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
   }
 }

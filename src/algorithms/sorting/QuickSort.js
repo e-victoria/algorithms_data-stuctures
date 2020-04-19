@@ -1,4 +1,4 @@
-class QuickSort {
+export default class QuickSort {
     constructor(array) {
         this.array = array;
     }
@@ -44,5 +44,3 @@ class QuickSort {
         return j;
     }
 }
-
-module.exports = QuickSort;

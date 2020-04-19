@@ -1,4 +1,4 @@
-class UndirectedGraph {
+export default class UndirectedGraph {
     constructor() {
         this.AdjList = new Map();
     }
@@ -19,7 +19,7 @@ class UndirectedGraph {
                 subVertex.splice(subVertex.indexOf(vertex), 1)
             }
             this.AdjList.delete(vertex);
-        } catch {
+        } catch (error) {
             console.log('No such vertex!!!');
         }
     }
@@ -61,5 +61,3 @@ class UndirectedGraph {
         return graph.substring(0, graph.length - 2);;
     }
 }
-
-module.exports = UndirectedGraph;

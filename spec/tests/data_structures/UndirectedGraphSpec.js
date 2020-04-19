@@ -1,5 +1,6 @@
+import UndirectedGraph from '../../../src/data_stuctures/graph/UndirectedGraph';
+
 describe("UndirectedGraph", function () {
-  const UndirectedGraph = require('../../../src/data_stuctures/graph/UndirectedGraph');
   let undirectedGraph
 
   it("should add one relation to graph", function () {

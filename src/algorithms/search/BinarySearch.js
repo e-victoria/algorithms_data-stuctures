@@ -1,4 +1,4 @@
-class BinarySearch {
+export default class BinarySearch {
     getIsNumberInArray(array, targetNum) {
         const sortedArray = array.sort((a, b) => a - b);
         let middleElIndex = Math.floor((sortedArray.length - 1) / 2);
@@ -18,5 +18,3 @@ class BinarySearch {
         }
     }
 }
-
-module.exports = BinarySearch;

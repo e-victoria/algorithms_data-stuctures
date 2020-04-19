@@ -1,5 +1,6 @@
+import MergeSort from '../../../../src/algorithms/sorting/MergeSort';
+
 describe("MergeSort", function() {
-    const MergeSort = require('../../../../src/algorithms/sorting/MergeSort');
     let mergeSort;
   
     beforeEach(function() {

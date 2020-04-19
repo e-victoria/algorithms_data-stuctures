@@ -1,5 +1,6 @@
+import QuickSort from '../../../../src/algorithms/sorting/QuickSort';
+
 describe("QuickSort", function() {
-    const QuickSort = require('../../../../src/algorithms/sorting/QuickSort');
     let quickSort;
   
     it("should return sorted array from [5, 15, 1, 4, 0, 23, 7]", function() {
